@@ -1,0 +1,67 @@
+.headerBlock article {
+    display: flex;
+    background-color: #fff;
+    height: 50px;
+    align-items: center;
+    justify-content: center;
+    box-shadow: 1px 1px 7px 1px #eee;
+}
+
+.headerBlock article div {
+    flex: 1;
+}
+.barIcon {
+    margin-left: 30px;
+    margin-right: -48px;
+}
+.barIcon:hover {
+    cursor: pointer;
+}
+.logo img {
+    width: 17%;
+    margin-left: 70px;
+}
+.logo img:hover{
+    cursor: pointer;
+}
+.countryCode{
+    color: var(--yt-spec-text-secondary);
+    margin: 0 0 0 2px;
+}
+.searchInput {
+
+    margin-left: -127px;
+}
+.Input {
+    width: 88%;
+}
+.but {
+    background-color: #eee;
+    border-color: #c6c6c6;
+    height: 32px;
+    width: 65px;
+}
+.but .butIcon {
+    margin-bottom: 1px;
+}
+.but:hover {
+    background-color: #d3d3d3;
+}
+.rightIcon{
+    padding: 20px;
+}
+
+.iconRight{
+margin-left: 230px;
+}
+.but2{
+    color: #065fd4;
+    padding: 5px 19px;
+    border: 1px solid#065fd4;
+    padding-right: 10px;
+    padding-left: 10px;
+    border-radius: 0px;
+}
+.user{
+    padding-right: 11px;
+}
